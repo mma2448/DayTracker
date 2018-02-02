@@ -1,8 +1,0 @@
-The DayTrackerGraph, DayTracker, and DayTrackerMain classes were created by me in my Spring Quarter in my first year at the University of Washington with the goal to see my daily sleeping habits. This program was an effort to find insight and a possible solution for my long-term sleeping problems.
-
-The DayTrackerGraph class utilizes the DrawingPanel class that was developed by Stuart Reges and Marty Stepp for the introductory CSE courses at the University of Washington. DrawingPanel is necessary for the program to run.
-
-Provided is a record, "Marc.txt". This file is the result from a part of my Spring Quarter where I used this program daily. This can be accessed by typing my name "Marc" then typing something other than "new" into cmd after compiling and running the DayTrackerMain class with "Marc.txt" in the same folder. This record can then be added to* or displayed based on chosen options. Users also have the option to create a new record by typing "new" when prompted and setting the person's name, which can then be added* onto and accessed later. 
-
-*adding onto "Marc.txt" allows you to set whatever date you would like. Since this program relies on DrawingPanel and since DayTrackerGraph does not graphically skip days, there will be a long sequence of empty days that span from the last input of "Marc.txt" to the new input date. DrawingPanel limits to a certain width barring additions past a certain date.
-When prompted for parameters, Month should be denoted by a number. time is in a 24:00 clock.
